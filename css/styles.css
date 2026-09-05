@@ -66,3 +66,46 @@ li::marker { color: #059669; }
 a[target="_blank"] { color: #d97706; }
 input[type="file"] { border: 1px dashed #94a3b8; padding: 8px; }
 input[type="text"] { border: 1px solid #cbd5e1; padding: 8px; }
+
+/* Part C: Typography & Colors */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgb(30, 41, 59);
+}
+
+h1 { font-size: 2rem; font-weight: 700; }
+h2 { font-size: 1.5rem; color: #0369a1; text-align: left; }
+em { font-style: italic; }
+
+.hero-title {
+  letter-spacing: 0.04em;
+  word-spacing: 0.1em;
+}
+
+.intro p {
+  text-indent: 2em;
+  text-align: justify;
+}
+
+.highlight { color: crimson; }
+
+.sold-out {
+  text-decoration: line-through;
+  text-decoration-color: #ef4444;
+  text-decoration-style: solid;
+}
+
+/* Part D: Margin & Padding (Box Model) */
+.intro {
+  margin: 24px 16px 32px 16px;
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+  background: white;
+}
+
+section {
+  margin-bottom: 28px;
+  padding-left: 8px;
+}
